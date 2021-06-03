@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ScreenPerfil">
+  <grid id="27dc6" binding="main" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <background color="-2109247"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a858b" class="javax.swing.JLabel" binding="alias">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6714241"/>
+          <text value="Alias:"/>
+        </properties>
+      </component>
+      <component id="fad9b" class="javax.swing.JLabel" binding="nombre">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6714241"/>
+          <text value="Nombre:"/>
+        </properties>
+      </component>
+      <component id="a15df" class="javax.swing.JLabel" binding="apellidos">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6714241"/>
+          <text value="Apellidos:"/>
+        </properties>
+      </component>
+      <component id="aea62" class="javax.swing.JLabel" binding="email">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6714241"/>
+          <text value="Email:"/>
+        </properties>
+      </component>
+      <component id="e84fb" class="javax.swing.JLabel" binding="telefono">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6714241"/>
+          <text value="Teléfono:"/>
+        </properties>
+      </component>
+      <component id="4cd36" class="javax.swing.JButton" binding="editarPerfilButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3556951"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-460552"/>
+          <text value="EDITAR PERFIL"/>
+        </properties>
+      </component>
+      <component id="19089" class="javax.swing.JButton" binding="volverButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3556951"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-460552"/>
+          <text value="VOLVER"/>
+        </properties>
+      </component>
+      <component id="d6e65" class="javax.swing.JLabel" binding="aliastext">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="ad5ba" class="javax.swing.JLabel" binding="nombretext">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="acbfc" class="javax.swing.JLabel" binding="apellidostext">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="153db" class="javax.swing.JLabel" binding="emailtext">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="ca3e4" class="javax.swing.JLabel" binding="telefonotext">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="2c8a1" class="javax.swing.JLabel" binding="perfil">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="36" style="1"/>
+          <foreground color="-6846339"/>
+          <text value="P E R F I L"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
