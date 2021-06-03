@@ -1,2 +1,2 @@
 # MiCarpetAPP
- Trabajo de Introducción a la Ingenieria del Software. 2º A, Grupo A
+ Proyecto de Introducción a la Ingeniería del Software. 2ºA, Grupo A
